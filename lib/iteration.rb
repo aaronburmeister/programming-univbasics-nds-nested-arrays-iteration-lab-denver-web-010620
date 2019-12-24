@@ -29,6 +29,7 @@ def find_greater_pair(src)
     end
     count += 1
   end
+  largerArray
 end
 
 def total_even_pairs(src)
@@ -46,4 +47,5 @@ def total_even_pairs(src)
       total += src[count][0] + src[count][1]
     count += 1
   end
+  total
 end
